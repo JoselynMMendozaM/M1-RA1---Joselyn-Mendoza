@@ -1,0 +1,13 @@
+<style>
+    .tabla-container {
+        white-space: nowrap; /* Evita que las tablas se rompan en diferentes líneas */
+    }
+
+    .tabla-container table {
+         /* Ancho de cada tabla */
+        margin-right:80px; /* Espacio entre las tablas */
+        display: inline-block; /* Muestra las tablas en línea */
+       
+    }
+   
+</style>
