@@ -10,27 +10,90 @@
         <img src="img/banner.svg" alt="" style="width: 100%;">
     </header>
     <section>
-        <form action="">
+        <div>
+            <table style="margin: auto;">
+                <tr>
+                    <td> <a href="index.html"><input class="btn-enlace" type="button" value="INICIO"></a></td>
+                    <td><a href="productos.html"><input class="btn-enlace" type="button" value="Productos"></a></td>
+                    <td><a href="tienda.html"><input class="btn-enlace" type="button" value="Tienda"></a></td>
+                    <td><a href="registro.html"><input class="btn-enlace" type="button" value="Registrarse"></a></td>
+    
+                </tr>
+            </table>
+        </div>
+        <form action="" style="text-align: center;">
             <h1>Registrarse</h1>
 
+            <p>
             <label for="">Nombre de Usuario:</label>
-            <input type="text">
-
+            <br>
+            <input type="text" placeholder="Ingrese un Usuario">
+        </p>
+        
+        <p>
             <label for="">Contraseña:</label>
-            <input type="text">
-
+            <br>
+            <input type="password" placeholder="Ingrese una Contraseña">
+        </p>
+            
+        <p>
+            
             <label for="">Confirmar Contraseña:</label>
-            <input type="text">
+            <br>
+            <input type="password" placeholder="Ingrese una Contraseña">
+        </p>
+        <p>
+            <label for="">Nombre(s):</label>
+            <br>
+            <input type="text" placeholder="Ingrese su Nombre">
 
-            <label for="">Nombre de Usuario:</label>
-            <input type="text">
+        </p>
+        <p>
+            <label for="">Apellido(s):</label>
+            <br>
+            <input type="text" placeholder="Ingrese su Apellido">
 
-            <label for="">Nombre de Usuario:</label>
-            <input type="text">
+        </p>
+        <p>
+            <label for="">Correo Electrónico:</label>
+            <br>
+            <input type="email" placeholder="Ingrese un Correo Electrónico">
+        <p>
 
-            <label for="">Nombre de Usuario:</label>
-            <input type="text">
-        </form>
+        </p>
+        <label for="txt_name">Género:</label>
+            <label for="">Maculino</label>
+            <input type="radio" value="M" name="genero" style="cursor: pointer;">
+            <label for="">Femenino</label>
+            <input type="radio" value="F" name="genero" style="cursor: pointer;">
+
+        <label for="txt_date">Fecha de Nacimiento:</label>
+            <input type="date" id="txt_date" name="txt_date" style="width: 143px; cursor: pointer;">
+
+        </p>
+
+        <p>
+            <label for="">Nacionalidad:</label>
+            <select name="lst:_nacionalidad" id="lst_nacionalidad" style="width: 340px; cursor: pointer;">
+               <option value="1">Seleccionar--</option>
+               <option value="1">Primaria</option>
+               <option value="2">Básicos</option>
+               <option value="3">Bachillerato</option>
+               <option value="4">Técnico</option>
+               <option value="5">Licenciatura</option>
+               <option value="6">Maestría</option>
+               <option value="7">Doctorado</option>
+            </select>
+
+        </p>
+       
+        <p>
+            <a href="index.html"><input  class="btn-registro" type="submit" name="btn_registro" value="Registrarse" style="height: 30px; width: 200px;  border-radius: 40px; cursor: pointer; font-family: Verdana, Geneva, Tahoma, sans-serif;"></a>
+
+        </p>
+            </form>
+
+
 
     </section>
     <footer>
